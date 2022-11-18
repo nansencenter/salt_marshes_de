@@ -6,7 +6,8 @@ RUN pip install scikit-learn rasterio asf-search geopandas \
  && conda install -c conda-forge folium jupyterlab
 # Install Sentinel1denoise package
 RUN pip install https://github.com/nansencenter/sentinel1denoised/archive/v1.3.1.tar.gz
-RUN apt-get install unzip
+RUN apt-get update\
+ && apt-get install -y unzip
 # Update meadata vocabularies
 # RUN python -c 'import pythesint as pti; pti.update_all_vocabularies()'
 
