@@ -28,7 +28,10 @@ To build up for the classification and assess the respective problems, the input
 
 ### Structure
 
-
+The classification was done in the *nicely_combined_classification* file. This is the most important file.
+Results were plotted in the *plotting_results* file. 
+The *looking at statistics* file was to explore mainly the time series value distribution of the VV and VH backscatter values, but also to plot a RGB-True Colour image of the Sentinel-2 data and the spectral indices.
+Since I had no prior knowledge of Python, I was trying around a bit in the *tries with nansat and index plotting* file.
 
 ## Literature
 
